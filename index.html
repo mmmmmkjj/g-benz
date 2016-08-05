@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>智者，大成</title>
+		<meta name="viewport" content="user-scalable=no, width=640">
+		<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="js/lib/hammer_v2.0.6.min.js"></script>
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/pixi.min.js"></script>
+		<script src="js/lib/TweenMax.min.js"></script>
+		
+		<script src="js/lPixiUtil.js"></script>
+		<script src="js/lUtils.js"></script>
+		<script src="js/lPop.js"></script>
+		<script src="js/lVideoUtils.js"></script>
+		<script src="js/submitinfo.js"></script>
+		<script>
+			!(function(a, b, c, d, e, f) {
+				var g = "",
+					h = a.sessionStorage,
+					i = "__admaster_ta_param__",
+					j = "tmDataLayer" !== d ? "&dl=" + d : "";
+				if (a[f] = {}, a[d] = a[d] || [], a[d].push({
+						startTime: +new Date,
+						event: "tm.js"
+					}), h) {
+					var k = a.location.search,
+						l = new RegExp("[?&]" + i + "=(.*?)(&|#|$)").exec(k) || [];
+					l[1] && h.setItem(i, l[1]), l = h.getItem(i),
+						l && (g = "&p=" + l + "&t=" + +new Date)
+				}
+				var m = b.createElement(c),
+					n = b.getElementsByTagName(c)[0];
+				m.src = "//tag.cdnmaster.cn/tmjs/tm.js?id=" + e + j + g,
+					m.async = !0, n.parentNode.insertBefore(m, n)
+			})(window, document, "script", "tmDataLayer", "TM-538379", "admaster_tm");
+		</script>
+		<script src="js/main.js?v=7"></script>
+		<script src="js/share.js"></script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>
